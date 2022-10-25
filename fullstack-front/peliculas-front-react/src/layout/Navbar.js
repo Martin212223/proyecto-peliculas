@@ -13,7 +13,7 @@ export default function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <Link className="btn btn-outline-light">Añadir película</Link>
+                    <Link className="btn btn-outline-light" to="/addmovie">Añadir película</Link>
                 </div>
             </nav>
 
