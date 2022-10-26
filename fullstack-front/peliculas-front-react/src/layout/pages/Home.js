@@ -23,9 +23,9 @@ export default function Home() {
     }
 
     return (
-        <div className="container">
-            <div className="py-4">
-                <table className="table border shadow">
+        <div className="container" id="home">
+            <div className="home-table-container">
+                <table className="table border shadow m-0" id="home-table">
                     <thead>
                         <tr>
                             <th scope="col">Id</th>

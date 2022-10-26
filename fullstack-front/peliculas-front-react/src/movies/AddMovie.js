@@ -29,7 +29,7 @@ export default function AddMovie() {
 
             <div className="row">
 
-                <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
+                <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow" id="add-movie-container">
                     <h2 className="text-center m-4">Agregar película</h2>
 
                     <form onSubmit={(event) => onSubmit(event)}>

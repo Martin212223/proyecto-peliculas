@@ -1,0 +1,27 @@
+body {
+    background-image: url(./img/cinema-background.jpg);
+    background-repeat: repeat;
+    background-size: 20rem;
+}
+
+#home {
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-table-container {
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-movie-container, .edit-movie-container, .view-movie-container {
+    background-image: linear-gradient(to top, #fffd2b, #ffd009, #ffa31d, #ff7633, #f04a45);
+}
